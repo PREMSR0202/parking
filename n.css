@@ -1,0 +1,67 @@
+html,
+body{
+  min-height: 100%;
+}
+body {
+  font-family: sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top:0;
+  background-color: #111;
+}
+h4{
+  position: absolute;
+  top:-3%;
+  padding: 20px; 
+  font-size: 23px;
+  color: white;
+  font-family: 'made_evolve_sans_evothin';
+}
+.sidenav a {
+  position: relative;
+  top:10%;
+  padding: 20px;
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  font-family: 'made_evolve_sans_evothin';
+  font-weight: bold;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  transition-duration: 0.5s;  
+}
+
+.outbox{
+  position: absolute;
+  height: 520px;
+  width: 550px;
+  left:35%;
+  top:10%;
+  padding: 10px;
+  background: #f2f2f2;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+h3{
+  font-family: 'made_evolve_sans_evothin';
+  font-weight: bold;
+  font-size: 20px;
+  color: blue;
+}
+
+@font-face {
+    font-family: 'made_evolve_sans_evothin';
+    src: url('Font2/made_evolve_sans_thin_evo_personal_use-webfont.woff2') format('woff2'),
+         url('Font2/made_evolve_sans_thin_evo_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

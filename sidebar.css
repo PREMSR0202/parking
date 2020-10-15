@@ -1,0 +1,77 @@
+html,
+body{
+  min-height: 100%;
+}
+body {
+  font-family: sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top:0;
+  background-color: #111;
+}
+h4{
+  position: absolute;
+  top:-3%;
+  padding: 20px; 
+  font-size: 23px;
+  color: white;
+  font-family: 'made_evolve_sans_evothin';
+}
+.sidenav a {
+  position: relative;
+  top:10%;
+  padding: 20px;
+  line-height: 60px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  font-family: 'made_evolve_sans_evothin';
+  font-weight: bold;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  transition-duration: 0.5s;  
+}
+@font-face {
+    font-family: 'made_evolve_sans_evothin';
+    src: url('Font2/made_evolve_sans_thin_evo_personal_use-webfont.woff2') format('woff2'),
+         url('Font2/made_evolve_sans_thin_evo_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(-50%,-50%);
+}
+.text1{
+  font-family: 'made_evolve_sans_evothin';
+  color: black;
+  font-size:70px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 4s alternate;
+}
+@keyframes text {
+   0%{
+    margin-bottom: -40px;
+    color: white;
+   }
+
+   30%{
+    letter-spacing: 45px;
+    margin-bottom: -40px;
+    color:black;
+   }
+}
